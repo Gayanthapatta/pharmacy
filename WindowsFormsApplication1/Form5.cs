@@ -20,23 +20,35 @@ namespace WindowsFormsApplication1
             InitializeComponent();
         }
 
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        private void addDataToDataGrid()
         {
             try
             {
                 query = "select * from users";
                 DataSet ds = fn.getData(query);
-                dataGridView1.DataSource = ds.Tables[0];
+                bindingSource1.DataSource = ds.Tables[0];
+
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message,"Error!");
+                MessageBox.Show(ex.Message, "Error!");
             }
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            
         }
 
         private void Form5_Load(object sender, EventArgs e)
         {
+            dataGridView1.DataSource = bindingSource1;
+            addDataToDataGrid();
+        }
 
+        private void button2_Click(object sender, EventArgs e)
+        {
+            addDataToDataGrid();
         }
     }
 }

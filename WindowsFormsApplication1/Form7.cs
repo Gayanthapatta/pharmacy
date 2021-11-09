@@ -16,5 +16,19 @@ namespace WindowsFormsApplication1
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Properties.Settings.Default.UserID = 0;
+            Properties.Settings.Default.UserRole = null;
+            Form7 f7 = new Form7();
+            f7.Show();
+            this.Close();
+        }
     }
 }

@@ -70,9 +70,28 @@ namespace WindowsFormsApplication1
                         MessageBox.Show("User Not Found","Error!");
                     }else
                     {
-                        Adminstrator am = new Adminstrator();
-                        am.Show();
-                        this.Hide();
+                        DataTable dt = ds.Tables[0];
+                        DataRow[] dr = dt.Select();
+                        if(dr.Length == 1)
+                        {
+                            int id = dr[0].Field<int>("id");
+                            String role = dr[0].Field<String>("userRole");
+                            Properties.Settings.Default.UserID = id;
+                            Properties.Settings.Default.UserRole = role;
+                            if (role.Equals("Admin"))
+                            {
+                                Adminstrator am = new Adminstrator();
+                                am.Show();
+                                this.Hide();
+                            }
+                            else
+                            {
+                                Form7 f7 = new Form7();
+                                f7.Show();
+                                this.Hide();
+                            }
+                        }
+                        
                     }
                 }
                 catch (Exception ex)

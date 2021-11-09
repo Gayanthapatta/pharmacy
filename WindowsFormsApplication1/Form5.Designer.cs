@@ -37,11 +37,9 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
-            this.pharmacysystemDataSet = new WindowsFormsApplication1.pharmacysystemDataSet();
-            this.pharmacysystemDataSetBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.bindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pharmacysystemDataSet)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pharmacysystemDataSetBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -67,9 +65,7 @@
             // 
             this.dataGridView1.AllowUserToAddRows = false;
             this.dataGridView1.AllowUserToDeleteRows = false;
-            this.dataGridView1.AutoGenerateColumns = false;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.DataSource = this.pharmacysystemDataSetBindingSource;
             this.dataGridView1.Location = new System.Drawing.Point(89, 194);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
@@ -81,7 +77,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(198, 125);
+            this.label3.Location = new System.Drawing.Point(94, 142);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(114, 24);
             this.label3.TabIndex = 3;
@@ -89,7 +85,7 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(411, 130);
+            this.textBox1.Location = new System.Drawing.Point(246, 146);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(208, 20);
             this.textBox1.TabIndex = 4;
@@ -113,16 +109,7 @@
             this.button2.Size = new System.Drawing.Size(53, 36);
             this.button2.TabIndex = 6;
             this.button2.UseVisualStyleBackColor = true;
-            // 
-            // pharmacysystemDataSet
-            // 
-            this.pharmacysystemDataSet.DataSetName = "pharmacysystemDataSet";
-            this.pharmacysystemDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // pharmacysystemDataSetBindingSource
-            // 
-            this.pharmacysystemDataSetBindingSource.DataSource = this.pharmacysystemDataSet;
-            this.pharmacysystemDataSetBindingSource.Position = 0;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // Form5
             // 
@@ -143,8 +130,7 @@
             this.Text = "Form5";
             this.Load += new System.EventHandler(this.Form5_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pharmacysystemDataSet)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pharmacysystemDataSetBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -159,7 +145,6 @@
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
-        private pharmacysystemDataSet pharmacysystemDataSet;
-        private System.Windows.Forms.BindingSource pharmacysystemDataSetBindingSource;
+        private System.Windows.Forms.BindingSource bindingSource1;
     }
 }
