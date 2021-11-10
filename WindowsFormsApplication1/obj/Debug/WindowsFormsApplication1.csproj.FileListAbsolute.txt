@@ -39,3 +39,7 @@ D:\kemla-vs\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.G
 D:\kemla-vs\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.CoreCompileInputs.cache
 D:\kemla-vs\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
 D:\kemla-vs\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+D:\kemla-vs\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form7.resources
+D:\kemla-vs\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form9.resources
+D:\kemla-vs\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form10.resources
+D:\kemla-vs\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.UserControl1.resources
