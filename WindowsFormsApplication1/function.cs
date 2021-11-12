@@ -14,7 +14,8 @@ namespace WindowsFormsApplication1
         protected SqlConnection getConnection()
         {
             SqlConnection con = new SqlConnection();
-            con.ConnectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\kemla-vs\WindowsFormsApplication1\Database1-g.mdf;Integrated Security=True";
+            con.ConnectionString = @"Data Source=DESKTOP-U76GMVG\SQLEXPRESS;Initial Catalog=pharmacy;Integrated Security=True";
+            //con.ConnectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\kemla-vs\WindowsFormsApplication1\Database1-g.mdf;Integrated Security=True";
             //con.ConnectionString = @"Data Source=(LocalDB)\v11.0;AttachDbFilename=C:\Users\Mars\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\pharmacysystem.mdf;Integrated Security=True";
             return con;
         }
