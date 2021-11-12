@@ -43,3 +43,5 @@ D:\kemla-vs\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form7.re
 D:\kemla-vs\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form9.resources
 D:\kemla-vs\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form10.resources
 D:\kemla-vs\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.UserControl1.resources
+D:\kemla-vs\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form12.resources
+D:\kemla-vs\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form13.resources

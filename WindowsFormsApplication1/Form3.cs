@@ -20,9 +20,7 @@ namespace WindowsFormsApplication1
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Adminstrator fm = new Adminstrator();
-            fm.Show();
-            this.Hide();
+            this.Close();
 
         }
 
@@ -84,6 +82,11 @@ namespace WindowsFormsApplication1
             textBox2.Text = "";
             textBox4.Text = "";
             textBox5.Text = "";
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

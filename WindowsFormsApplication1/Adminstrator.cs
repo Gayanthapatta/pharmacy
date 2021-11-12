@@ -28,6 +28,8 @@ namespace WindowsFormsApplication1
         {
             Form1 fm =new Form1();
             fm.Show();
+            Properties.Settings.Default.UserID = 0;
+            Properties.Settings.Default.UserRole = null;
             this.Hide();
         }
 
@@ -42,11 +44,6 @@ namespace WindowsFormsApplication1
         {
             Form3 fm = new Form3();
             fm.Show();
-            this.Hide();
-
-
-
-
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -54,14 +51,12 @@ namespace WindowsFormsApplication1
 
             Form5 am = new Form5();
             am.Show();
-            this.Hide();
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
             Form6 am = new Form6();
             am.Show();
-            this.Hide();
 
         }
 
@@ -70,6 +65,11 @@ namespace WindowsFormsApplication1
             Form7 am = new Form7();
             am.Show();
             this.Hide();
+        }
+
+        private void flowLayoutPanel4_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

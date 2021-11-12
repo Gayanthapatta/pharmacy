@@ -34,12 +34,11 @@ namespace WindowsFormsApplication1
         public void setData(String query,String msg)
         {
             SqlConnection con = getConnection();
-            SqlCommand cmd = new SqlCommand();
-            cmd.Connection = con;
-            con.Open();//open connection
-            cmd.CommandText = query;
-            var dt = cmd.ExecuteNonQuery();
-            Console.WriteLine(dt);
+            SqlCommand mcmd = new SqlCommand();
+            mcmd.Connection = con;
+            mcmd.CommandText = query;
+            con.Open();
+            mcmd.ExecuteNonQuery();
             con.Close();
             MessageBox.Show(msg,"Information",MessageBoxButtons.OK,MessageBoxIcon.Information);
 

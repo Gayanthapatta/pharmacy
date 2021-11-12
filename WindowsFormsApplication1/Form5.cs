@@ -50,5 +50,10 @@ namespace WindowsFormsApplication1
         {
             addDataToDataGrid();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

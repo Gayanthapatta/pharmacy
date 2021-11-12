@@ -79,9 +79,7 @@ namespace WindowsFormsApplication1
         private void button2_Click(object sender, EventArgs e)
         {
             //go back
-            Adminstrator fm = new Adminstrator();
-            fm.Show();
-            this.Hide();
+            this.Close();
         }
     }
 }

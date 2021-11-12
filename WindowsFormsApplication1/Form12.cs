@@ -21,5 +21,30 @@ namespace WindowsFormsApplication1
         {
 
         }
+        private void refreshForm()
+        {
+            textBox1.Text = "";
+            textBox2.Text = "";
+            textBox3.Text = "";
+        }
+        private void button2_Click(object sender, EventArgs e)
+        {
+            refreshForm();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if(textBox1.Text != "" && textBox2.Text != "" && textBox3.Text != "")
+            {
+                int user = Properties.Settings.Default.UserID;
+                
+                String sql_string = "insert into medicine_inventry(medicine_id,changed_amount,price,user) values()"
+            }
+        }
     }
 }
