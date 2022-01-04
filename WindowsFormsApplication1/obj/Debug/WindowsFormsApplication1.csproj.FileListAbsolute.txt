@@ -17,10 +17,6 @@ C:\Users\Mars\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debu
 C:\Users\Mars\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\pharmacysystem_log.ldf
 C:\Users\Mars\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form5.resources
 C:\Users\Mars\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form6.resources
-D:\kemla-vs\WindowsFormsApplication1\bin\Debug\Database1-g.mdf
-D:\kemla-vs\WindowsFormsApplication1\bin\Debug\Database1-g_log.ldf
-D:\kemla-vs\WindowsFormsApplication1\bin\Debug\pharmacysystem.mdf
-D:\kemla-vs\WindowsFormsApplication1\bin\Debug\pharmacysystem_log.ldf
 D:\kemla-vs\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
 D:\kemla-vs\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
 D:\kemla-vs\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
@@ -46,3 +42,7 @@ D:\kemla-vs\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Pharmasi
 D:\kemla-vs\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.AddMedicineForm.resources
 D:\kemla-vs\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.EditPrescriptionForm.resources
 D:\kemla-vs\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.ViewPrescriptionsForm.resources
+D:\kemla-vs\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.ServiceInitialize.resources
+D:\kemla-vs\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.ServiceLabelForm.resources
+D:\kemla-vs\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.ServiceManage.resources
+D:\kemla-vs\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.UpdateServiceForm.resources

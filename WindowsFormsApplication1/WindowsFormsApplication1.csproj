@@ -65,6 +65,36 @@
     <Compile Include="AdminstratorForm.Designer.cs">
       <DependentUpon>AdminstratorForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="DoneServiceList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DoneServiceList.Designer.cs">
+      <DependentUpon>DoneServiceList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ServiceDoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServiceDoForm.Designer.cs">
+      <DependentUpon>ServiceDoForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ServiceInitialize.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServiceInitialize.Designer.cs">
+      <DependentUpon>ServiceInitialize.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ServiceLabelForm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ServiceLabelForm.Designer.cs">
+      <DependentUpon>ServiceLabelForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ServiceManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServiceManage.Designer.cs">
+      <DependentUpon>ServiceManage.cs</DependentUpon>
+    </Compile>
     <Compile Include="SignInForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -106,6 +136,12 @@
     </Compile>
     <Compile Include="ManagePrescriptionsForm.Designer.cs">
       <DependentUpon>ManagePrescriptionsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateServiceForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateServiceForm.Designer.cs">
+      <DependentUpon>UpdateServiceForm.cs</DependentUpon>
     </Compile>
     <Compile Include="ViewPrescriptionsForm.cs">
       <SubType>Form</SubType>
@@ -164,6 +200,15 @@
     <EmbeddedResource Include="EditPrescriptionForm.resx">
       <DependentUpon>EditPrescriptionForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ServiceInitialize.resx">
+      <DependentUpon>ServiceInitialize.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ServiceLabelForm.resx">
+      <DependentUpon>ServiceLabelForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ServiceManage.resx">
+      <DependentUpon>ServiceManage.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="SignInForm.resx">
       <DependentUpon>SignInForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -181,6 +226,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ManagePrescriptionsForm.resx">
       <DependentUpon>ManagePrescriptionsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateServiceForm.resx">
+      <DependentUpon>UpdateServiceForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ViewPrescriptionsForm.resx">
       <DependentUpon>ViewPrescriptionsForm.cs</DependentUpon>
@@ -227,22 +275,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Database1-g.mdf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Database1-g_log.ldf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      <DependentUpon>Database1-g.mdf</DependentUpon>
-    </Content>
-    <Content Include="pharmacysystem.mdf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="pharmacysystem_log.ldf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      <DependentUpon>pharmacysystem.mdf</DependentUpon>
-    </Content>
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.5">

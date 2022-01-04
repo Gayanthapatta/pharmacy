@@ -39,11 +39,11 @@
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.panel5 = new System.Windows.Forms.Panel();
+            this.button10 = new System.Windows.Forms.Button();
+            this.button9 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.button9 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
             this.panel3.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -178,6 +178,28 @@
             this.panel5.Size = new System.Drawing.Size(200, 435);
             this.panel5.TabIndex = 2;
             // 
+            // button10
+            // 
+            this.button10.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button10.Location = new System.Drawing.Point(0, 323);
+            this.button10.Name = "button10";
+            this.button10.Size = new System.Drawing.Size(200, 112);
+            this.button10.TabIndex = 3;
+            this.button10.Text = "Manage Service";
+            this.button10.UseVisualStyleBackColor = true;
+            this.button10.Click += new System.EventHandler(this.button10_Click_1);
+            // 
+            // button9
+            // 
+            this.button9.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button9.Location = new System.Drawing.Point(0, 206);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(200, 117);
+            this.button9.TabIndex = 2;
+            this.button9.Text = "Add Service";
+            this.button9.UseVisualStyleBackColor = true;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
+            // 
             // button8
             // 
             this.button8.Dock = System.Windows.Forms.DockStyle.Top;
@@ -212,26 +234,6 @@
             this.panel4.Size = new System.Drawing.Size(1090, 435);
             this.panel4.TabIndex = 3;
             this.panel4.Paint += new System.Windows.Forms.PaintEventHandler(this.panel4_Paint);
-            // 
-            // button9
-            // 
-            this.button9.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button9.Location = new System.Drawing.Point(0, 206);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(200, 117);
-            this.button9.TabIndex = 2;
-            this.button9.Text = "Add Service";
-            this.button9.UseVisualStyleBackColor = true;
-            // 
-            // button10
-            // 
-            this.button10.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button10.Location = new System.Drawing.Point(0, 323);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(200, 112);
-            this.button10.TabIndex = 3;
-            this.button10.Text = "Manage Service";
-            this.button10.UseVisualStyleBackColor = true;
             // 
             // PharmasistDashboardForm
             // 

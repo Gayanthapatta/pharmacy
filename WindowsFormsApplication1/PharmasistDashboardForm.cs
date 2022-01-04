@@ -75,5 +75,17 @@ namespace WindowsFormsApplication1
         {
 
         }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            ServiceInitialize sinit = new ServiceInitialize();
+            sinit.Show();
+        }
+
+        private void button10_Click_1(object sender, EventArgs e)
+        {
+            ServiceManage sman = new ServiceManage();
+            sman.Show();
+        }
     }
 }
