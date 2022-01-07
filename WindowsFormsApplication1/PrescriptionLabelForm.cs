@@ -30,7 +30,7 @@ namespace WindowsFormsApplication1
 
         private void button2_Click(object sender, EventArgs e)
         {
-            DialogResult dialogResult = MessageBox.Show("Info", "You can't change medicines in prescription", MessageBoxButtons.YesNo);
+            DialogResult dialogResult = MessageBox.Show("You can't change medicines in prescription","Info", MessageBoxButtons.YesNo);
             if(dialogResult == DialogResult.Yes)
             {
                 //Show select dialog box

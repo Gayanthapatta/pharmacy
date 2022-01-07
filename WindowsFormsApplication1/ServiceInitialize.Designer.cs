@@ -50,9 +50,9 @@
             this.label1.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.label1.Location = new System.Drawing.Point(12, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(147, 24);
+            this.label1.Size = new System.Drawing.Size(124, 24);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Create Service";
+            this.label1.Text = "Add Service";
             // 
             // textBox1
             // 

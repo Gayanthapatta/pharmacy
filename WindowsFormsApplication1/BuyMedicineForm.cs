@@ -45,7 +45,7 @@ namespace WindowsFormsApplication1
             String sql_string = "insert into medicine_inventry(medicine_id,changed_amount,price,[user]) values(" + medicine_id + ",'" + amount + "','" + price + "'," + user + ")";
             try
             {
-                fnc.setData(sql_string, "Sold Success!");
+                fnc.setData(sql_string, "Added Success!");
             }
             catch (Exception ex)
             {
@@ -56,7 +56,14 @@ namespace WindowsFormsApplication1
 
         private void Form13_Load(object sender, EventArgs e)
         {
-
+            String medicine_query = "select id,name from medicines";
+            fnc = new DatabaseHandler();
+            DataSet ds = fnc.getData(medicine_query);
+            DataTable dtt = ds.Tables[0];
+            comboBox1.Items.Clear();
+            comboBox1.DataSource = dtt;
+            comboBox1.DisplayMember = "name";
+            comboBox1.ValueMember = "id";
         }
     }
 }

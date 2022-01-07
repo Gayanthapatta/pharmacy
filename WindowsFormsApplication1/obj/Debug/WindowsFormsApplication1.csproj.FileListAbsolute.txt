@@ -45,7 +45,6 @@ D:\kemla-vs\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.ViewPres
 D:\kemla-vs\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.ServiceInitialize.resources
 D:\kemla-vs\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.ServiceLabelForm.resources
 D:\kemla-vs\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.ServiceManage.resources
-D:\kemla-vs\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.UpdateServiceForm.resources
 C:\Users\Mars\Desktop\windows-app\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
 C:\Users\Mars\Desktop\windows-app\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
 C:\Users\Mars\Desktop\windows-app\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb

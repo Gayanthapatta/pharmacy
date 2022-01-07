@@ -45,10 +45,9 @@ namespace WindowsFormsApplication1
                     label4.Text = dr1[0].Field<String>("mobile");
                     label5.Text = dr1[0].Field<DateTime>("date").ToString();
                     label6.Text = dr1[0].Field<String>("status");
-                    MessageBox.Show(dr2.Length.ToString());
                     foreach(DataRow dr in dr2)
                     {
-                        listView1.Items.Add(new ListViewItem(new String[] { dr.Field<int>("id").ToString(), dr.Field<String>("name"), dr.Field<String>("quantity"), dr.Field<String>("price") }));
+                        listView1.Items.Add(new ListViewItem(new String[] { dr.Field<int>("id").ToString(), dr.Field<String>("name"), dr.Field<Decimal>("quantity").ToString(), dr.Field<Decimal>("price").ToString() }));
                     }
                 }
                 else

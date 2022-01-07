@@ -71,5 +71,19 @@ namespace WindowsFormsApplication1
         {
 
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            Properties.Settings.Default.UserID = 0;
+            Properties.Settings.Default.UserRole = null;
+            SignInForm sf = new SignInForm();
+            sf.Visible = true;
+            this.Hide();
+        }
     }
 }

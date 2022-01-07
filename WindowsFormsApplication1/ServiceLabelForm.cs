@@ -39,10 +39,8 @@ namespace WindowsFormsApplication1
         {
             //delete Entry
             String sqld = "delete from services where id = " + id;
-            String servise_done = "delete from service_done where serviseid = " + id;
             try
             {
-                dbHandler.setDataWithoutMessage(servise_done);
                 dbHandler.setDataWithoutMessage(sqld);
                 MessageBox.Show("Service Details Deleted Successfully","Info");
             }catch(Exception ex)

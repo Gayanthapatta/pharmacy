@@ -14,7 +14,8 @@ namespace WindowsFormsApplication1
         protected SqlConnection getConnection()
         {
             SqlConnection con = new SqlConnection();
-            con.ConnectionString = @"Data Source=MARS-PC;Initial Catalog=pharmacy;Integrated Security=True";
+            //con.ConnectionString = @"Data Source=MARS-PC;Initial Catalog=pharmacy;Integrated Security=True";
+            con.ConnectionString = @"Data Source=DESKTOP-U76GMVG\SQLEXPRESS;Initial Catalog=pharmacy;Integrated Security=True";
             return con;
         }
 

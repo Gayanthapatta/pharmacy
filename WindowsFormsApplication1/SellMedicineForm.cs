@@ -16,6 +16,7 @@ namespace WindowsFormsApplication1
         public Form12()
         {
             InitializeComponent();
+            fnc = new DatabaseHandler();
         }
 
         private void label3_Click(object sender, EventArgs e)

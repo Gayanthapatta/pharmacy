@@ -65,18 +65,6 @@
     <Compile Include="AdminstratorForm.Designer.cs">
       <DependentUpon>AdminstratorForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="DoneServiceList.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="DoneServiceList.Designer.cs">
-      <DependentUpon>DoneServiceList.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ServiceDoForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ServiceDoForm.Designer.cs">
-      <DependentUpon>ServiceDoForm.cs</DependentUpon>
-    </Compile>
     <Compile Include="ServiceInitialize.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -136,12 +124,6 @@
     </Compile>
     <Compile Include="ManagePrescriptionsForm.Designer.cs">
       <DependentUpon>ManagePrescriptionsForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="UpdateServiceForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="UpdateServiceForm.Designer.cs">
-      <DependentUpon>UpdateServiceForm.cs</DependentUpon>
     </Compile>
     <Compile Include="ViewPrescriptionsForm.cs">
       <SubType>Form</SubType>
@@ -227,9 +209,6 @@
     <EmbeddedResource Include="ManagePrescriptionsForm.resx">
       <DependentUpon>ManagePrescriptionsForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UpdateServiceForm.resx">
-      <DependentUpon>UpdateServiceForm.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="ViewPrescriptionsForm.resx">
       <DependentUpon>ViewPrescriptionsForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -256,6 +235,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="MedicineLabelForm.resx">
       <DependentUpon>MedicineLabelForm.cs</DependentUpon>
@@ -292,6 +272,18 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pharmacist-bro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pharmacist-amico.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pharmacist-rafiki.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Work time-amico.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

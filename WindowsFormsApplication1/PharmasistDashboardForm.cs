@@ -19,14 +19,14 @@ namespace WindowsFormsApplication1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            this.Close();
+            Application.Exit();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             Properties.Settings.Default.UserID = 0;
             Properties.Settings.Default.UserRole = null;
-            PharmasistDashboardForm f7 = new PharmasistDashboardForm();
+            SignInForm f7 = new SignInForm();
             f7.Show();
             this.Close();
         }
@@ -86,6 +86,25 @@ namespace WindowsFormsApplication1
         {
             ServiceManage sman = new ServiceManage();
             sman.Show();
+        }
+
+        private void PharmasistDashboardForm_Load(object sender, EventArgs e)
+        {
+            if(Properties.Settings.Default.UserRole == "Admin")
+            {
+                button11.Visible = true;
+            }
+            else
+            {
+                button11.Visible = false;
+            }
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            AdminstratorForm adm = new AdminstratorForm();
+            adm.Visible = true;
+            this.Hide();
         }
     }
 }
